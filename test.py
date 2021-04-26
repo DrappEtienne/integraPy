@@ -1,6 +1,6 @@
 import http.server
 
-PORT = 8080
+PORT = 8000
 server_address = ("", PORT)
 
 server = http.server.HTTPServer
