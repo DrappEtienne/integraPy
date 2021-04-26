@@ -1,4 +1,4 @@
-import HTTPServer
+import http.server
 
 PORT = 8080
 server_address = ("", PORT)
