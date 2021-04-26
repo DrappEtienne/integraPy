@@ -9,10 +9,10 @@ app = Flask(__name__)
 def headers():
     return '<br/>'.join(['%s => %s' % (key, value) for (key, value) in request.headers.items()])
 
-#@app.route("/favicon.ico")
-#def favicon():
-#    resp = Response(status=200, mimetype='image/png')
-#    return resp
+@app.route("/favicon.ico")
+def favicon():
+    resp = Response(status=200, mimetype='image/png')
+    return resp
 
 @app.route("/pyver")
 def pyver():
