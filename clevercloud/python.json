@@ -3,7 +3,6 @@
         "folder": "app"
     },
     "deploy": {
-        "module": "app.test:app",
-        "static": "/clevercloud/static/"
+        "module": "app.test:app"
     }
 }
